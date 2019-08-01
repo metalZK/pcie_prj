@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "generate_pcie_fmap", "generate_pcie_fmap\generate_pcie_fmap.vcxproj", "{5C5EE15F-C143-4813-A7FA-5AFF29E35019}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "generate_pcie_weight_bias", "generate_pcie_weight_bias\generate_pcie_weight_bias.vcxproj", "{5D29BA01-3E80-4C87-844B-351DB97F5586}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcie_receive_and_send", "pcie_receive_and_send\pcie_receive_and_send.vcxproj", "{A3BDF60F-60AA-4F7B-9A07-B51CF5C2BC52}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C5EE15F-C143-4813-A7FA-5AFF29E35019}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5C5EE15F-C143-4813-A7FA-5AFF29E35019}.Debug|Win32.Build.0 = Debug|Win32
+		{5C5EE15F-C143-4813-A7FA-5AFF29E35019}.Release|Win32.ActiveCfg = Release|Win32
+		{5C5EE15F-C143-4813-A7FA-5AFF29E35019}.Release|Win32.Build.0 = Release|Win32
+		{5D29BA01-3E80-4C87-844B-351DB97F5586}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5D29BA01-3E80-4C87-844B-351DB97F5586}.Debug|Win32.Build.0 = Debug|Win32
+		{5D29BA01-3E80-4C87-844B-351DB97F5586}.Release|Win32.ActiveCfg = Release|Win32
+		{5D29BA01-3E80-4C87-844B-351DB97F5586}.Release|Win32.Build.0 = Release|Win32
+		{A3BDF60F-60AA-4F7B-9A07-B51CF5C2BC52}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A3BDF60F-60AA-4F7B-9A07-B51CF5C2BC52}.Debug|Win32.Build.0 = Debug|Win32
+		{A3BDF60F-60AA-4F7B-9A07-B51CF5C2BC52}.Release|Win32.ActiveCfg = Release|Win32
+		{A3BDF60F-60AA-4F7B-9A07-B51CF5C2BC52}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
